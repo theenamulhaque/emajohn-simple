@@ -1,0 +1,23 @@
+.shop-container {
+    padding: 5% 5%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+
+/* .shop-container {
+    background-color: rgb(220, 220, 220);
+} */
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+}
+
+.cart-container {
+    background-color: rgb(255, 179, 0);
+    padding: 0 27px;
+    border-radius: 10px;
+}
